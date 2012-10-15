@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?><target name="test" sequenceNumber="14">
 <locations>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<location includeAllPlatforms="true" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.sdk.ide" version="4.2.1.M20120914-1800"/>
+<unit id="org.eclipse.rcp.sdk.id" version="4.2.1.M20120914-1800"/>
 <unit id="org.eclipse.ecf.core.feature.group" version="3.5.6.v20120610-1946"/>
 <unit id="org.eclipse.emf.sdk.feature.group" version="2.8.1.v20120917-0436"/>
 <unit id="org.eclipse.emf.compare.sdk.feature.group" version="1.3.2.v20120918-1125"/>
@@ -106,6 +107,7 @@
 <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.12.0.v20120529-2033-28Q1EVVFNTFtSK8WOZd51"/>
 <repository location="http://download.eclipse.org/e4/updates/0.12"/>
 </location>
+<location path="${project_loc}\deltapack\4.2.1\eclipse" type="Directory"/>
 <location path="${project_loc}\plugins\general" type="Directory"/>
 <location path="${project_loc}\plugins\passerelle\7.0.0" type="Directory"/>
 <location path="${project_loc}\plugins\restlet\2.0.11" type="Directory"/>
